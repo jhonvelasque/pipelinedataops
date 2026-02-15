@@ -19,7 +19,7 @@
   },
   "report": {
     "to": "usuario.dmc@gmail.com",
-    "subject": "jhon velasque dta ops- Comisiones Calculadas",
+    "subject": "jhon velasque dta ops- Comisiones Calculadas dataops",
     "body_html": "Estimado(a), <br>Adjunto encontrarás el archivo con las comisiones calculadas.<br>Saludos."
   }
 }
