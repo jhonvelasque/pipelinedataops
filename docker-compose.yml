@@ -1,7 +1,14 @@
+version: '3.8'
+
 services:
-  app:
-    build:
-      context: .
+  jenkins:
+    container_name: jenkins
+    image: jenkins/jenkins:2.544-slim-jdk21
+    restart: unless-stopped
+    ports:
+      - "80:8080"
     volumes:
-      - ./app:/app
-    container_name: dataops_app
+      - jenkins_home:/var/jenkins_home/
+
+volumes:
+  jenkins_home:
